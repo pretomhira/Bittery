@@ -5,22 +5,42 @@
 @tailwind components;
 @tailwind utilities;
 
-.owl-prev {
+.home .owl-prev {
   @apply absolute top-1/2 left-1;
   background: none !important;
 }
-.owl-prev span {
+.home .owl-prev span {
   @apply px-5 py-3 bg-white/90 rounded-full border-2 border-gray-500/10 text-gray-600 hover:text-white hover:bg-[#fca435]/90 transition-all duration-700;
 }
 
-.owl-next {
+.home .owl-next {
   @apply absolute top-1/2 right-1;
   background: none !important;
 }
 
-.owl-next span {
+.home .owl-next span {
   @apply px-5 py-3 bg-white/90 rounded-full border-2 border-gray-500/10 text-gray-600 hover:text-white hover:bg-[#fca435]/90 transition-all duration-700;
 }
-.owl-dots {
+.home .owl-dots {
+  @apply hidden;
+}
+
+.lottery .owl-prev {
+  @apply absolute bottom-72 right-72;
+  background: none !important;
+}
+.lottery .owl-prev span {
+  @apply px-5 py-3 bg-white/90 rounded-full border-2 border-gray-500/10 text-gray-600 hover:text-white hover:bg-[#fca435]/90 transition-all duration-700;
+}
+
+.lottery .owl-next {
+  @apply absolute bottom-72 right-56;
+  background: none !important;
+}
+
+.lottery .owl-next span {
+  @apply px-5 py-3 bg-white/90 rounded-full border-2 border-gray-500/10 text-gray-600 hover:text-white hover:bg-[#fca435]/90 transition-all duration-700;
+}
+.lottery .owl-dots {
   @apply hidden;
 }

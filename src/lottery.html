@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title class="capitalize">lottery</title>
+  </head>
+  <body class="font-Comfortaa font-semibold">
+    <header>
+      <!-- header -->
+      <div class="max-w-7xl mx-auto flex flex-row justify-between">
+        <div class="p-4">
+          <a href="">
+            <img src="images/home/logo.png" alt="logo" />
+          </a>
+        </div>
+        <div class="flex flex-row">
+          <div class="p-4">
+            <button>
+              <div
+                class="p-2 capitalize bg-gradient-to-r from-[#db107c] to-[#7f038e] text-white text-base rounded-md hover:from-[#7f038e] hover:to-[#db107c] border-2 border-[#6c0092] shadow-inner drop-shadow-xl"
+              >
+                register
+              </div>
+            </button>
+          </div>
+          <div class="p-4">
+            <button>
+              <div
+                class="p-2 px-4 capitalize bg-gradient-to-r from-[#f4ba2e] to-[#fea136] text-white text-base rounded-md hover:from-[#fea136] hover:to-[#f4ba2e] border-2 border-[#fea036] shadow-inner drop-shadow-xl"
+              >
+                log in
+              </div>
+            </button>
+          </div>
+          <div class="relative">
+            <button>
+              <div
+                class="absolute bg-[#88cd25] text-white px-[6px] rounded-full text-sm top-3 right-1"
+              >
+                6
+              </div>
+              <div class="px-4 py-6">
+                <img src="images/home/cart.png" alt="cart" />
+              </div>
+            </button>
+          </div>
+          <div class="flex flex-col p-3">
+            <a href="">
+              <div class="text-lg text-[#4a3771] font-extrabold">
+                <span class="p-1">$</span>
+                24.00
+              </div>
+              <div class="text-[#88cd25] text-sm">to checkout</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- header -->
+
+      <!-- header menu -->
+      <div class="bg-[#6c0092] max-w-full w-full font-normal text-lg">
+        <div class="flex flex-row justify-between max-w-7xl mx-auto p-4">
+          <nav class="flex flex-row">
+            <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+              <a href="">Home</a>
+            </div>
+            <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+              <a href="">Lottery</a>
+            </div>
+            <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+              <a href="">Results</a>
+            </div>
+            <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+              <a href="">About</a>
+            </div>
+            <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+              <a href=""> FAQ</a>
+            </div>
+            <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+              <a href="">Blog</a>
+            </div>
+            <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+              <a href="">Contact</a>
+            </div>
+          </nav>
+          <div class="flex flex-row">
+            <button>
+              <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+                btc
+                <span class="inline-block px-1"
+                  ><img src="images/home/down.png" alt=""
+                /></span>
+              </div>
+            </button>
+            <button>
+              <div class="uppercase text-white pr-6 hover:text-[#df00e9]">
+                en
+                <span class="inline-block px-1"
+                  ><img src="images/home/down.png" alt=""
+                /></span>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- header menu -->
+    </header>
+
+    <div class="relative">
+      <!-- Background banner -->
+      <div>
+        <div>
+          <img src="images/lottery/banner_bg.png" alt="" />
+        </div>
+      </div>
+      <!-- Background banner -->
+      <div class="absolute w-full top-0 left-0">
+        <!-- Background body -->
+        <!-- Background body -->
+        <div class="max-w-7xl mx-auto">
+          <!-- background title -->
+          <div class="text-white pt-20 pb-10">
+            <div class="float-right">
+              <img src="images/home/Icon_1.png" alt="" />
+            </div>
+            <div
+              style="text-shadow: 2px 5px #00000033"
+              class="text-7xl font-bold uppercase p-4 drop-shadow-2xl"
+            >
+              powerball
+            </div>
+            <div class="text-xl capitalize p-4">
+              <span>home</span> &#8594; <span>powerball</span>
+            </div>
+          </div>
+          <!-- background title -->
+          <!-- steps  -->
+          <div
+            class="bg-white drop-shadow-2xl rounded-md flex flex-row capitalize px-20 pt-10 pb-32 gap-x-20 text-[#5949b3] m-4"
+          >
+            <div class="text-xl font-bold flex flex-col justify-center">
+              only 3 easy steps
+            </div>
+            <div class="flex flex-row gap-x-5">
+              <div>
+                <img
+                  class="w-16 h-16 object-contain"
+                  src="images/lottery/Icon_pick.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-col justify-center">1.pick</div>
+            </div>
+            <div class="flex flex-row gap-x-5">
+              <div>
+                <img
+                  class="w-16 h-16 object-contain"
+                  src="images/lottery/Icon_play.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-col justify-center">2.play</div>
+            </div>
+            <div class="flex flex-row gap-x-5">
+              <div>
+                <img
+                  class="w-16 h-16 object-contain"
+                  src="images/lottery/Icon_win.png"
+                  alt=""
+                />
+              </div>
+              <div class="flex flex-col justify-center">3.win</div>
+            </div>
+            <div class="absolute left-0 top-40 w-full">
+              <div
+                class="flex flex-row gap-5 justify-center bg-[#f5f1fd] drop-shadow-2xl max-w-2xl mx-auto py-10 rounded-md"
+              >
+                <div><img src="images/lottery/Icon_watch.png" alt="" /></div>
+                <div class="font-bold text-4xl flex flex-row gap-5">
+                  <span class="text-[#ec1379]">45d :</span>
+                  <span class="text-[#bb0c83]">15h :</span
+                  ><span class="text-[#9d0788]">51m :</span
+                  ><span class="text-[#9d0788]">44s</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- steps  -->
+
+          <!-- pick numbers -->
+          <div class="flex flex-row gap-x-8 capitalize pt-20 px-4">
+            <div
+              class="group relative flex-1 rounded-md drop-shadow-xl bg-white flex flex-col overflow-hidden"
+            >
+              <div class="bg-[#fef1f1] flex flex-col p-5">
+                <div class="text-lg text-[#5949B3] font-bold py-4 text-center">
+                  Pick 5 numbers
+                </div>
+                <div class="flex flex-row gap-x-3 justify-center">
+                  <div>
+                    <button>
+                      <div
+                        class="flex flex-row p-2 capitalize bg-gradient-to-r from-[#db107c] to-[#7f038e] text-white text-base rounded-md hover:from-[#7f038e] hover:to-[#db107c] border-2 border-[#6c0092] shadow-inner drop-shadow-xl"
+                      >
+                        <div>
+                          <img
+                            class="w-4 h-5 object-contain"
+                            src="images/lottery/Icon_random.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="whitespace-nowrap">quick pick</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div>
+                    <button>
+                      <div
+                        class="flex flex-row p-2 px-4 capitalize bg-gradient-to-r from-[#f4ba2e] to-[#fea136] text-white text-base rounded-md hover:from-[#fea136] hover:to-[#f4ba2e] border-2 border-[#fea036] shadow-inner drop-shadow-xl"
+                      >
+                        <div>
+                          <img
+                            class="w-4 h-5 object-contain"
+                            src="images/lottery/Icon_clear.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="whitespace-nowrap">clear all</div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="pick_numbers"
+                class="flex flex-wrap p-10 gap-3 justify-start"
+              ></div>
+              <div class="flex flex-col justify-center">
+                <div
+                  class="text-[#5949b3] text-lg text-center pt-5 border-t-2 border-[#c8c4e1] mx-10"
+                >
+                  pick 1 powerball
+                </div>
+                <div
+                  id="pick_ball"
+                  class="flex flex-wrap p-10 gap-3 justify-start"
+                ></div>
+              </div>
+              <div
+                class="absolute hidden group-hover:block top-0 right-0 bg-white/5 drop-shadow-md"
+              >
+                <img src="images/lottery/Icon_cancel.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="group relative flex-1 rounded-md drop-shadow-xl bg-white flex flex-col overflow-hidden"
+            >
+              <div class="bg-[#fef1f1] flex flex-col p-5">
+                <div class="text-lg text-[#5949B3] font-bold py-4 text-center">
+                  Pick 5 numbers
+                </div>
+                <div class="flex flex-row gap-x-3 justify-center">
+                  <div>
+                    <button>
+                      <div
+                        class="flex flex-row p-2 capitalize bg-gradient-to-r from-[#db107c] to-[#7f038e] text-white text-base rounded-md hover:from-[#7f038e] hover:to-[#db107c] border-2 border-[#6c0092] shadow-inner drop-shadow-xl"
+                      >
+                        <div>
+                          <img
+                            class="w-4 h-5 object-contain"
+                            src="images/lottery/Icon_random.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="whitespace-nowrap">quick pick</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div>
+                    <button>
+                      <div
+                        class="flex flex-row p-2 px-4 capitalize bg-gradient-to-r from-[#f4ba2e] to-[#fea136] text-white text-base rounded-md hover:from-[#fea136] hover:to-[#f4ba2e] border-2 border-[#fea036] shadow-inner drop-shadow-xl"
+                      >
+                        <div>
+                          <img
+                            class="w-4 h-5 object-contain"
+                            src="images/lottery/Icon_clear.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="whitespace-nowrap">clear all</div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="pick_numbers2"
+                class="flex flex-wrap p-10 gap-3 justify-start"
+              ></div>
+              <div class="flex flex-col justify-center">
+                <div
+                  class="text-[#5949b3] text-lg text-center pt-5 border-t-2 border-[#c8c4e1] mx-10"
+                >
+                  pick 1 powerball
+                </div>
+                <div
+                  id="pick_ball2"
+                  class="flex flex-wrap p-10 gap-3 justify-start"
+                ></div>
+              </div>
+              <div
+                class="absolute hidden group-hover:block top-0 right-0 bg-white/5 drop-shadow-md"
+              >
+                <img src="images/lottery/Icon_cancel.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="group relative flex-1 rounded-md drop-shadow-xl bg-white flex flex-col overflow-hidden"
+            >
+              <div class="bg-[#fef1f1] flex flex-col p-5">
+                <div class="text-lg text-[#5949B3] font-bold py-4 text-center">
+                  Pick 5 numbers
+                </div>
+                <div class="flex flex-row gap-x-3 justify-center">
+                  <div>
+                    <button>
+                      <div
+                        class="flex flex-row p-2 capitalize bg-gradient-to-r from-[#db107c] to-[#7f038e] text-white text-base rounded-md hover:from-[#7f038e] hover:to-[#db107c] border-2 border-[#6c0092] shadow-inner drop-shadow-xl"
+                      >
+                        <div>
+                          <img
+                            class="w-4 h-5 object-contain"
+                            src="images/lottery/Icon_random.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="whitespace-nowrap">quick pick</div>
+                      </div>
+                    </button>
+                  </div>
+                  <div>
+                    <button>
+                      <div
+                        class="flex flex-row p-2 px-4 capitalize bg-gradient-to-r from-[#f4ba2e] to-[#fea136] text-white text-base rounded-md hover:from-[#fea136] hover:to-[#f4ba2e] border-2 border-[#fea036] shadow-inner drop-shadow-xl"
+                      >
+                        <div>
+                          <img
+                            class="w-4 h-5 object-contain"
+                            src="images/lottery/Icon_clear.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="whitespace-nowrap">clear all</div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div
+                id="pick_numbers3"
+                class="flex flex-wrap p-10 gap-3 justify-start"
+              ></div>
+              <div class="flex flex-col justify-center">
+                <div
+                  class="text-[#5949b3] text-lg text-center pt-5 border-t-2 border-[#c8c4e1] mx-10"
+                >
+                  pick 1 powerball
+                </div>
+                <div
+                  id="pick_ball3"
+                  class="flex flex-wrap p-10 gap-3 justify-start"
+                ></div>
+              </div>
+              <div
+                class="absolute hidden group-hover:block top-0 right-0 bg-white/5 drop-shadow-md"
+              >
+                <img src="images/lottery/Icon_cancel.png" alt="" />
+              </div>
+            </div>
+            <div class="flex-1">
+              <div
+                class="flex flex-col rounded-md bg-white drop-shadow-xl overflow-hidden"
+              >
+                <div
+                  class="flex-1 flex flex-col text-center bg-[#5e28fd] py-5 px-10"
+                >
+                  <div class="text-white text-3xl py-1">cart summry</div>
+                  <div class="text-base text-[#e7e3ff] text-center py-1">
+                    You've got 30% of chance to win. Shop more tickets to get
+                    more chance
+                  </div>
+                </div>
+                <div
+                  class="flex-1 bg-gradient-to-t from-[#b474ec] to-[#9863f5] flex flex-col gap-y-2 px-10"
+                >
+                  <div class="flex flex-row justify-between py-2">
+                    <div class="text-white text-base">Filled out Tickets</div>
+                    <div class="text-white text-2xl">3</div>
+                  </div>
+                  <div class="flex flex-row justify-between py-2">
+                    <div class="text-white text-base">Ticket Price</div>
+                    <div class="text-white text-2xl">$33.00</div>
+                  </div>
+                  <div class="text-base font-bold text-[#24e980] pb-4">
+                    (<span>8</span> tickets X <span>$4.99</span>)
+                  </div>
+                </div>
+                <div
+                  class="flex-1 flex flex-col bg-gradient-to-t from-[#c165dd] to-[#a252e7] py-4 px-10 text-white"
+                >
+                  <div class="flex flex-row justify-between py-2 pb-4 text-2xl">
+                    <div>total</div>
+                    <div>$39.39</div>
+                  </div>
+                  <div class="flex flex-row justify-center">
+                    <button>
+                      <div
+                        class="p-2 px-4 capitalize bg-gradient-to-r from-[#f4ba2e] to-[#fea136] text-white text-base rounded-md hover:from-[#fea136] hover:to-[#f4ba2e] border-2 border-[#fea036] shadow-inner drop-shadow-xl"
+                      >
+                        buy tickets
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="my-20 max-w-4xl flex flex-row justify-center">
+            <div class="ml-16 w-64">
+              <div
+                class="flex flex-row border-2 b border-[#e5e7ff] rounded-lg justify-center p-4"
+              >
+                <div><img src="images/lottery/Icon_add.png" alt="" /></div>
+                <div class="uppercase">add tickets</div>
+              </div>
+            </div>
+          </div>
+          <!-- pick numbers -->
+        </div>
+        <!-- Background body -->
+
+        <!-- Background body -->
+      </div>
+    </div>
+    <div class="relative mt-[100rem]">
+      <div
+        class="max-w-7xl mx-auto text-[#5849b4] text-3xl uppercase font-bold px-4 pt-16"
+      >
+        most frequents numbers
+      </div>
+      <div class="lottery">
+        <div
+          id="owl-lottery"
+          class="owl-carousel owl-theme text-[#5949b3] capitalize relative"
+        >
+          <div class="item mt-6 hover:mt-0 transition-all duration-700 pb-20">
+            <div
+              class="flex-1 flex flex-col bg-white drop-shadow-2xl rounded-lg p-8 text-center"
+            >
+              <div
+                class="flex flex-row gap-x-2 text-lg text-white py-4 justify-center"
+              >
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+              </div>
+              <input
+                class="bg-[#f7fbff] shadow-inner rounded-lg py-4 px-4 capitalize"
+                type="text"
+                name=""
+                id=""
+                placeholder="Try These Numbers"
+              />
+            </div>
+          </div>
+          <div class="item mt-6 hover:mt-0 transition-all duration-700 pb-20">
+            <div
+              class="flex-1 flex flex-col bg-white drop-shadow-2xl rounded-lg p-8 text-center"
+            >
+              <div
+                class="flex flex-row gap-x-2 text-lg text-white py-4 justify-center"
+              >
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+              </div>
+              <input
+                class="bg-[#f7fbff] shadow-inner rounded-lg py-4 px-4 capitalize"
+                type="text"
+                name=""
+                id=""
+                placeholder="Try These Numbers"
+              />
+            </div>
+          </div>
+          <div class="item mt-6 hover:mt-0 transition-all duration-700 pb-20">
+            <div
+              class="flex-1 flex flex-col bg-white drop-shadow-2xl rounded-lg p-8 text-center"
+            >
+              <div
+                class="flex flex-row gap-x-2 text-lg text-white py-4 justify-center"
+              >
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+              </div>
+              <input
+                class="bg-[#f7fbff] shadow-inner rounded-lg py-4 px-4 capitalize"
+                type="text"
+                name=""
+                id=""
+                placeholder="Try These Numbers"
+              />
+            </div>
+          </div>
+          <div class="item mt-6 hover:mt-0 transition-all duration-700 pb-20">
+            <div
+              class="flex-1 flex flex-col bg-white drop-shadow-2xl rounded-lg p-8 text-center"
+            >
+              <div
+                class="flex flex-row gap-x-2 text-lg text-white py-4 justify-center"
+              >
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+              </div>
+              <input
+                class="bg-[#f7fbff] shadow-inner rounded-lg py-4 px-4 capitalize"
+                type="text"
+                name=""
+                id=""
+                placeholder="Try These Numbers"
+              />
+            </div>
+          </div>
+          <div class="item mt-6 hover:mt-0 transition-all duration-700 pb-20">
+            <div
+              class="flex-1 flex flex-col bg-white drop-shadow-2xl rounded-lg p-8 text-center"
+            >
+              <div
+                class="flex flex-row gap-x-2 text-lg text-white py-4 justify-center"
+              >
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+                <div
+                  class="rounded-full bg-gradient-to-b from-[#fb9e47] to-[#f42f7c] px-3 py-1"
+                >
+                  11
+                </div>
+              </div>
+              <input
+                class="bg-[#f7fbff] shadow-inner rounded-lg py-4 px-4 capitalize"
+                type="text"
+                name=""
+                id=""
+                placeholder="Try These Numbers"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      <!-- footer background -->
+      <div><img src="images/home/footer_bg.png" alt="" /></div>
+      <!-- footer background -->
+      <!-- footer -->
+      <div class="absolute w-full h-full top-0 left-0">
+        <div class="max-w-7xl mx-auto h-full flex flex-col justify-end py-10">
+          <div class="flex flex-col gap-y-5">
+            <div
+              class="flex flex-row justify-between border-b-[1px] border-gray-500 py-6"
+            >
+              <div class="flex flex-row gap-x-6">
+                <div>
+                  <a href="">
+                    <img src="images/home/App store _btn_.png" alt="" />
+                  </a>
+                </div>
+                <div>
+                  <a href="">
+                    <img src="images/home/goole play_btn_.png" alt="" />
+                  </a>
+                </div>
+              </div>
+              <div
+                class="flex flex-row text-[#d2d5fc] font-bold text-base gap-x-4"
+              >
+                <div><a href=""> About </a> |</div>
+                <div>
+                  <a href=""> FAQs |</a>
+                </div>
+                <div>
+                  <a href=""> Contact | </a>
+                </div>
+                <div>
+                  <a href="">Terms of Servi |</a>
+                </div>
+                <div>
+                  <a href="">Privacy</a>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row justify-between">
+              <div class="text-[#d2d5fc] font-bold text-lg">
+                Copyright © 2020.All Rights Reserved By
+                <span class="text-[#27ff5a]"> <a href=""> Bittery</a> </span>
+              </div>
+              <div class="flex flex-row gap-5">
+                <div
+                  class="border-[1px] border-[#d2d5fc]/20 p-4 rounded-full bg-none hover:bg-[#ee4730] transition-all duration-700"
+                >
+                  <a href="">
+                    <img
+                      class="w-4 h-4 object-contain"
+                      src="images/home/facebook.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div
+                  class="border-[1px] border-[#d2d5fc]/20 p-4 rounded-full bg-none hover:bg-[#ee4730] transition-all duration-700"
+                >
+                  <a href="">
+                    <img
+                      class="w-4 h-4 object-contain"
+                      src="images/home/twitter.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div
+                  class="border-[1px] border-[#d2d5fc]/20 p-4 rounded-full bg-none hover:bg-[#ee4730] transition-all duration-700"
+                >
+                  <a href="">
+                    <img
+                      class="w-4 h-4 object-contain"
+                      src="images/home/googleplus.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+    </div>
+
+    <script src="js/carousel.js"></script>
+    <script>
+      var number = 69;
+      var pageButtons = $("#pick_numbers");
+      for (var i = 1; i <= number; i++) {
+        pageButtons.append(
+          '<input onclick="myFunction_number(this)" class="bg-[#e4e6ff] text-[#5949b3] clicked w-8 h-8 rounded-full" type="button" id="button_number' +
+            i +
+            '" value="' +
+            i +
+            '"/>'
+        );
+      }
+      function myFunction_number(number) {
+        var id = $(number).attr("id");
+        document.getElementById(id).style.color = "white";
+        document.getElementById(id).style.backgroundImage =
+          "linear-gradient(to top, #f32b7e, #fba443)";
+      }
+      var ball = 26;
+      var pageButtons = $("#pick_ball");
+      for (var i = 1; i <= ball; i++) {
+        pageButtons.append(
+          '<input onclick="myFunction_ball(this)" class="bg-[#e4e6ff] text-[#5949b3] clicked w-8 h-8 rounded-full" type="button" id="button_ball' +
+            i +
+            '" value="' +
+            i +
+            '"/>'
+        );
+      }
+      function myFunction_ball(ball) {
+        var id = $(ball).attr("id");
+        console.log(id);
+        document.getElementById(id).style.color = "white";
+        document.getElementById(id).style.backgroundImage =
+          "linear-gradient(to top, #f32b7e, #fba443)";
+      }
+    </script>
+    <script>
+      var number = 69;
+      var pageButtons = $("#pick_numbers2");
+      for (var i = 1; i <= number; i++) {
+        pageButtons.append(
+          '<input onclick="myFunction_number(this)" class="bg-[#e4e6ff] text-[#5949b3] clicked w-8 h-8 rounded-full" type="button" id="button_number2nd' +
+            i +
+            '" value="' +
+            i +
+            '"/>'
+        );
+      }
+      function myFunction_number(number) {
+        var id = $(number).attr("id");
+        document.getElementById(id).style.color = "white";
+        document.getElementById(id).style.backgroundImage =
+          "linear-gradient(to top, #f32b7e, #fba443)";
+      }
+      var ball = 26;
+      var pageButtons = $("#pick_ball2");
+      for (var i = 1; i <= ball; i++) {
+        pageButtons.append(
+          '<input onclick="myFunction_ball(this)" class="bg-[#e4e6ff] text-[#5949b3] clicked w-8 h-8 rounded-full" type="button" id="button_ball2nd' +
+            i +
+            '" value="' +
+            i +
+            '"/>'
+        );
+      }
+      function myFunction_ball(ball) {
+        var id = $(ball).attr("id");
+        console.log(id);
+        document.getElementById(id).style.color = "white";
+        document.getElementById(id).style.backgroundImage =
+          "linear-gradient(to top, #f32b7e, #fba443)";
+      }
+    </script>
+    <script>
+      var number = 69;
+      var pageButtons = $("#pick_numbers3");
+      for (var i = 1; i <= number; i++) {
+        pageButtons.append(
+          '<input onclick="myFunction_number(this)" class="bg-[#e4e6ff] text-[#5949b3] clicked w-8 h-8 rounded-full" type="button" id="button_number3rd' +
+            i +
+            '" value="' +
+            i +
+            '"/>'
+        );
+      }
+      function myFunction_number(number) {
+        var id = $(number).attr("id");
+        document.getElementById(id).style.color = "white";
+        document.getElementById(id).style.backgroundImage =
+          "linear-gradient(to top, #f32b7e, #fba443)";
+      }
+      var ball = 26;
+      var pageButtons = $("#pick_ball3");
+      for (var i = 1; i <= ball; i++) {
+        pageButtons.append(
+          '<input onclick="myFunction_ball(this)" class="bg-[#e4e6ff] text-[#5949b3] clicked w-8 h-8 rounded-full" type="button" id="button_ball3rd' +
+            i +
+            '" value="' +
+            i +
+            '"/>'
+        );
+      }
+      function myFunction_ball(ball) {
+        var id = $(ball).attr("id");
+        console.log(id);
+        document.getElementById(id).style.color = "white";
+        document.getElementById(id).style.backgroundImage =
+          "linear-gradient(to top, #f32b7e, #fba443)";
+      }
+    </script>
+  </body>
+</html>
