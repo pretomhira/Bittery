@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title class="capitalize">Register</title>
+  </head>
+  <body class="font-Comfortaa font-semibold bg-[#323660]">
+    <div class="flex flex-col justify-center w-screen h-screen">
+      <div class="bg-white rounded-lg max-w-lg mx-auto w-full">
+        <div
+          class="text-[#3B368C] text-2xl font-bold text-center py-4 capitalize"
+        >
+          Create an Account
+        </div>
+        <form action="" class="flex flex-col gap-y-2 px-10">
+          <label for="email" class="capitalize text-[#3B368C] text-lg"
+            >your email</label
+          >
+          <input
+            class="bg-[#F6F6FA] shadow-inner p-4 rounded-md focus:outline-none"
+            type="text"
+            name="email"
+            id=""
+            placeholder="Enter Your Email"
+          />
+          <label for="password" class="capitalize text-[#3B368C] text-lg"
+            >password</label
+          >
+          <input
+            class="bg-[#F6F6FA] shadow-inner p-4 rounded-md focus:outline-none"
+            type="password"
+            name="password"
+            id=""
+            placeholder="Enter Your Password"
+          />
+          <label
+            for="confirm_password"
+            class="capitalize text-[#3B368C] text-lg"
+            >confirm password</label
+          >
+          <input
+            class="bg-[#F6F6FA] shadow-inner p-4 rounded-md focus:outline-none"
+            type="password"
+            name="confirm_password"
+            id=""
+            placeholder="Enter Your Confirm Password"
+          />
+          <div class="text-[#8E8CB0] flex flex-row gap-x-2">
+            <div class="round">
+              <input
+                style="--tw-ring-shadow: none"
+                type="checkbox"
+                class="form-checkbox h-5 w-5 rounded-full text-[#6E32F8] focus:outline-none"
+                checked
+              />
+            </div>
+            <div>
+              I agree to the
+              <span class="text-[#5D9D66] capitalize"
+                ><a href="">terms,privacy policy and fees</a>
+              </span>
+            </div>
+          </div>
+          <div class="flex flex-row justify-center py-5">
+            <button>
+              <div
+                class="p-2 px-8 capitalize bg-gradient-to-r from-[#f4ba2e] to-[#fea136] text-white text-base rounded-md hover:from-[#fea136] hover:to-[#f4ba2e] border-2 border-[#fea036] shadow-inner drop-shadow-xl"
+              >
+                register now
+              </div>
+            </button>
+          </div>
+        </form>
+        <div class="text-[#3B368C] px-10 text-center py-4 font-bold">
+          Already have an account?
+          <span class="text-[#F68C32] capitalize"
+            ><a href="">Login >></a>
+          </span>
+        </div>
+
+        <div class="flex flex-row w-full justify-between px-10">
+          <div class="flex flex-col justify-center w-[45%]"><hr /></div>
+          <div
+            class="flex flex-col justify-center uppercase text-[#3B368C] text-lg"
+          >
+            or
+          </div>
+          <div class="flex flex-col justify-center w-[45%]"><hr /></div>
+        </div>
+        <div class="flex flex-row gap-5 justify-center py-8">
+          <div
+            class="border-[1px] border-[#8E8CB0]/50 bg-[#F2F2F7] p-4 rounded-full bg-none hover:bg-[#ee4730] transition-all duration-700"
+          >
+            <a href="">
+              <img
+                class="w-4 h-4 object-contain"
+                src="images/home/facebook.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div
+            class="border-[1px] border-[#8E8CB0]/50 bg-[#F2F2F7] p-4 rounded-full bg-none hover:bg-[#ee4730] transition-all duration-700"
+          >
+            <a href="">
+              <img
+                class="w-4 h-4 object-contain"
+                src="images/home/twitter.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <div
+            class="border-[1px] border-[#8E8CB0]/50 bg-[#F2F2F7] p-4 rounded-full bg-none hover:bg-[#ee4730] transition-all duration-700"
+          >
+            <a href="">
+              <img
+                class="w-4 h-4 object-contain"
+                src="images/home/googleplus.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
