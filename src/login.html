@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title class="capitalize">login</title>
+  </head>
+  <body class="font-Comfortaa font-semibold bg-[#323660]">
+    <div class="flex flex-col justify-center w-screen h-screen">
+      <div class="bg-white rounded-lg max-w-lg mx-auto w-full">
+        <div
+          class="text-[#3B368C] text-2xl font-bold text-center py-4 capitalize"
+        >
+          welcome to bittery
+        </div>
+        <form action="" class="flex flex-col gap-y-2 px-10">
+          <label for="email" class="capitalize text-[#3B368C] text-lg"
+            >your email</label
+          >
+          <input
+            class="bg-[#F6F6FA] shadow-inner p-4 rounded-md focus:outline-none"
+            type="text"
+            name="email"
+            id=""
+            placeholder="Enter Your Email"
+          />
+          <label for="password" class="capitalize text-[#3B368C] text-lg"
+            >password</label
+          >
+          <input
+            class="bg-[#F6F6FA] shadow-inner p-4 rounded-md focus:outline-none"
+            type="password"
+            name="password"
+            id=""
+            placeholder="Enter Your Password"
+          />
+          <div class="text-[#8E8CB0]">
+            Forgot your password?
+            <span class="text-[#3B368C]"><a href="">recover password</a> </span>
+          </div>
+          <div class="flex flex-row justify-center py-5">
+            <button>
+              <div
+                class="p-2 px-8 capitalize bg-gradient-to-r from-[#f4ba2e] to-[#fea136] text-white text-base rounded-md hover:from-[#fea136] hover:to-[#f4ba2e] border-2 border-[#fea036] shadow-inner drop-shadow-xl"
+              >
+                Sign in
+              </div>
+            </button>
+          </div>
+        </form>
+        <div class="flex flex-row w-full justify-between">
+          <div class="flex flex-col justify-center w-[45%]"><hr /></div>
+          <div
+            class="flex flex-col justify-center uppercase text-[#3B368C] text-lg"
+          >
+            or
+          </div>
+          <div class="flex flex-col justify-center w-[45%]"><hr /></div>
+        </div>
+        <div class="text-center flex flex-col gap-y-8 py-8 text-[#8E8CB0]">
+          <div>Sign up with your email</div>
+          <a href="">
+            <div class="flex flex-row justify-center">
+              <div
+                class="flex flex-row justify-center gap-x-2 border-2 border-[#8E8CB0] rounded-full p-4"
+              >
+                <div><img src="images/login/Icon_google.png" alt="" /></div>
+                <div>Sign up with Google</div>
+              </div>
+            </div>
+          </a>
+          <div>
+            Don't have an account?
+            <span class="text-[#3B368C]"><a href="">Sign up here</a> </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
