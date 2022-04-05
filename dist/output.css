@@ -896,6 +896,18 @@ select{
   margin-top: 100rem;
 }
 
+.mt-\[150rem\]{
+  margin-top: 150rem;
+}
+
+.mt-\[130rem\]{
+  margin-top: 130rem;
+}
+
+.mt-\[140rem\]{
+  margin-top: 140rem;
+}
+
 .block{
   display: block;
 }
@@ -1663,6 +1675,11 @@ select{
 .text-6xl{
   font-size: 3.75rem;
   line-height: 1;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-semibold{
